@@ -42,7 +42,19 @@ body {
     -webkit-text-stroke: 3px;
     -webkit-text-stroke-color: black;
     color: transparent;
-} 
+    animation: intro 0.7s linear;
+}
+
+@keyframes intro {
+
+    0%{
+        transform: perspective(1000px) rotateX(0deg) rotateY(10deg);
+    }
+
+    100%{
+        transform: perspective(899px) rotateX(0deg) rotateY(10deg);
+    }
+}
 
 #bann-home {
     position: absolute;

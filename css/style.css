@@ -17,11 +17,17 @@ body {
 }
 
 .nav-pri-container {
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.nav-pri-container a{
     font: src('../resources/fonts/Druk-Wide-Web-Super-Regular.ttf');
     font-family: "Druk Wide Web Super Regular";
     font-size: 150px;
     font-weight: 900;
-    
+    text-decoration: none;
 }
 
 #bann-home {

@@ -2,7 +2,7 @@
 
 body {
     font: src('../resources/fonts/DrukWide-Bold.ttf');
-    font-family: "Druk Wide Web Super Regular";
+    font-family: "Druk Wide Web Bold Regular", sans-serif;
     font-size: 16px;
     height: 100%;
     width: 100%;
@@ -24,7 +24,7 @@ body {
 
 .nav-pri-container a{
     font: src('../resources/fonts/Druk-Wide-Web-Super-Regular.ttf');
-    font-family: "Druk Wide Web Super Regular";
+    font-family: "Druk Wide Web Super Regular", sans-serif;
     font-size: 150px;
     font-weight: 900;
     color: whitesmoke;
@@ -43,11 +43,10 @@ body {
 
 }
 
-.banner {
-    
-}
-
 #bann-home .banner {
 
 }
 
+.banner {
+    
+}
